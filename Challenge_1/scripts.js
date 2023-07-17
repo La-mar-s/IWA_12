@@ -29,20 +29,7 @@ const STATUS_MAP = {
 
 // Edit below line 
 
-status = selector(status),
-reserve = selector(reserve),
-checkout = selector(checkout),
-checkin = selector(checkin),
-
-status = selector(status),
-reserve = selector(reserve),
-checkout = selector(checkout),
-checkin = selector(checkin),
-
-status = selector(status),
-reserve = selector(reserve),
-checkout = selector(checkout),
-checkin = selector(checkin),
+const statusElements = [selector(status), selector(reserve), selector(checkout), selector(checkin)];
 
 checkin.0.color = `rgb(${black}, ${grey})`,
 status.0.style.color = STATUS_MAP.status.color
